@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+        }
+        html,body{
+            height: 100%;
+            overflow:hidden;
+        }
+        #wrap{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+        }
+        img{
+            width: 64px;
+        }
+    </style>
+</head>
+<body onmousemove="moves()">
+<div id="wrap">
+    <img src="image/20180305113708.jpg"/>
+    <img src="image/20180305113708.jpg"/>
+    <img src="image/20180305113708.jpg"/>
+    <img src="image/20180305113708.jpg"/>
+</div>
+<script type="text/javascript">
+    window.onload = function () {
+
+    }
+    function moves(ev) {
+        var r  = 320;
+        var imgs = document.querySelectorAll("#wrap > img");
+        ev = ev || event;
+        for (var i = 0;i<imgs.length;i ++ ){
+            var a = imgs[i].getBoundingClientRect().left + imgs[i].offsetWidth/2 - ev.clientX;
+            var b = imgs[i].getBoundingClientRect().top + imgs[i].offsetHeight/2 - ev.clientY;
+            var c = Math.sqrt(a*a+b*b);
+            if(c<r){
+//                    宽度最小为64px；
+                imgs[i].style.width = 128 - c*0.2 + "px";
+            }
+        }
+    }
+</script>
+</body>
+</html>
