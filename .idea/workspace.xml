@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92063cc1-6a8a-4735-9994-9d849800b1ae" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/test/html/气泡.html" afterDir="false" />
+    <list default="true" id="92063cc1-6a8a-4735-9994-9d849800b1ae" name="Default" comment="气泡">
+      <change afterPath="$PROJECT_DIR$/web/test/css/carouselCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/test/html/无缝滑屏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/test/html/自定义右键菜单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/test/js/carouselJS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/test/image/332655794659535786.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/test/image/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/test/image/391533290799754026.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/test/image/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/test/image/574081048165733288.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/test/image/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/test/image/QQ图片20180305113817.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/test/image/05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/test/image/c4fd274b170e317ff57047b87b86f64.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/test/image/04.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="XSLT Stylesheet" />
       </list>
     </option>
   </component>
@@ -34,9 +42,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\work\web\test\js" />
       <recent name="F:\work\H5Test\web\test" />
     </key>
   </component>
@@ -183,7 +193,18 @@
       <updated>1575556288779</updated>
       <workItem from="1575556314483" duration="4733000" />
       <workItem from="1575943436817" duration="10539000" />
+      <workItem from="1575972038231" duration="99000" />
+      <workItem from="1576027602291" duration="9800000" />
+      <workItem from="1576054973574" duration="1132000" />
     </task>
+    <task id="LOCAL-00001" summary="气泡">
+      <created>1575972087992</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575972087992</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,10 +215,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="气泡" />
+    <option name="LAST_COMMIT_MESSAGE" value="气泡" />
   </component>
 </project>

@@ -1,0 +1,12 @@
+.wrap{
+    height: 100%;
+    overflow: hidden;
+}
+.list {
+    list-style: none;
+    overflow: hidden;
+    position: absolute;
+}
+.list > li {float: left}
+.list > li > a,.list > li > a > img{display: block}
+.list > li > a > img {width: 100%;}

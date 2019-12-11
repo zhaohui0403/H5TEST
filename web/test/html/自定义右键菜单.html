@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #wrap{
+            position: absolute;
+            width: 400px;
+            height: 200px;
+            background: rebeccapurple;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+
+    </div>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.oncontextmenu = function (ev) {
+                ev = ev || event;
+                var left = ev.clientX;
+                var top = ev.clientY;
+                var wrap = document.querySelector("#wrap");
+                wrap.style.display = "block";
+                wrap.style.top = top + "px";
+                wrap.style.left = left + "px";
+                return false;
+            }
+
+            document.onclick = function (ev) {
+                ev = ev||event;
+                var wrap = document.querySelector("#wrap");
+                wrap.style.display = "none";
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
