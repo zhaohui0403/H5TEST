@@ -3,6 +3,10 @@
     overflow: hidden;
     position: absolute;
 }
+.carousel-wrap{position: relative}
 .list > li {float: left}
 .list > li > a,.list > li > a > img{display: block}
 .list > li > a > img {width: 100%;}
+.point-wrap{position: absolute;bottom: 0px;width: 100%;text-align: center;z-index: 1}
+.point-wrap > span{display: inline-block;width: 10px;height: 10px;border-radius: 50%;background: deeppink;margin-left: 5px;}
+.point-wrap > span.active{background: aqua}
